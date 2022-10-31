@@ -1,9 +1,9 @@
-import Overview from "./design-system/components/Overview";
+import OverviewBar from "./design-system/components/OverviewBar/OverviewBar";
 
 function App() {
   return (
     <div className="App">
-      <Overview />
+      <OverviewBar />
     </div>
   );
 }

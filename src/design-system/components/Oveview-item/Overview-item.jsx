@@ -1,16 +1,16 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-function Overview({ icon, title, description }) {
+function OverviewItem({ icon, title, children }) {
   return (
     <div>
       <div>
-        <FontAwesomeIcon icon={FontAwesomeIcon} />
+        <FontAwesomeIcon icon={icon} />
       </div>
       <h2>{title}</h2>
-      <p>{description}</p>
+      <p>{children}</p>
     </div>
   );
 }
 
-export default Overview;
+export default OverviewItem;
