@@ -1,4 +1,4 @@
-import OverviewBar from "./design-system/components/OverviewBar/OverviewBar";
+import OverviewBar from "./design-system/components/OverviewBar/OverviewBar-component";
 
 function App() {
   return (

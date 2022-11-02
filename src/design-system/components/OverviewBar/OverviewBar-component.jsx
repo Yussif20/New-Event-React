@@ -1,5 +1,5 @@
 import React from "react";
-import OverviewItem from "../Oveview-item/Overview-item";
+import OverviewItem from "../OveviewItem/OverviewItem-component";
 import {
   faClock,
   faUsers,
