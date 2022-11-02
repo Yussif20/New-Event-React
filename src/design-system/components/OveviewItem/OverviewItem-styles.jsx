@@ -1,15 +1,16 @@
 import styled from "@emotion/styled";
 
 export const OverviewItemWrapper = styled("div")`
-  width: 300px;
   text-align: center;
+  width: 300px;
 `;
 
 export const Title = styled("h2")`
-  label: Title;
-  color: #d4d4d4;
+  font-size: 28px;
+  color: #edf2f4;
 `;
 
 export const Description = styled("p")`
-  color: #707070;
+  font-size: 18px;
+  color: #8d99ae;
 `;

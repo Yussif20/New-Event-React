@@ -1,5 +1,6 @@
-import React from "react";
 import OverviewItem from "../OveviewItem/OverviewItem-component";
+import { OverviewWrapper } from "./OverviewBar-styles";
+
 import {
   faClock,
   faUsers,
@@ -8,7 +9,7 @@ import {
 
 export default function OverviewBar() {
   return (
-    <div>
+    <OverviewWrapper>
       {" "}
       <OverviewItem icon={faUsers} title="650 participation">
         There is a lot of people that already sign for the program, You will be
@@ -22,6 +23,6 @@ export default function OverviewBar() {
         Our speakers are great thinkers and leaders that will inspire you in
         life.
       </OverviewItem>
-    </div>
+    </OverviewWrapper>
   );
 }

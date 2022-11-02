@@ -5,7 +5,7 @@ function OverviewItem({ icon, title, children }) {
   return (
     <OverviewItemWrapper>
       <div>
-        <FontAwesomeIcon color="#f2545f" size="2xl" icon={icon} />
+        <FontAwesomeIcon color="#ef233c" size="2xl" icon={icon} />
       </div>
       <Title>{title}</Title>
       <Description>{children}</Description>
