@@ -1,14 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Title, OverviewItemWrapper, Description } from "./OverviewItem-styles";
 
-function OverviewItem({ icon, title, children }) {
+function OverviewItem({ icon, title, description }) {
   return (
     <OverviewItemWrapper>
-      <div>
-        <FontAwesomeIcon color="#ef233c" size="2xl" icon={icon} />
-      </div>
+      <FontAwesomeIcon color="#ef233c" size="2xl" icon={icon} />
       <Title>{title}</Title>
-      <Description>{children}</Description>
+      <Description>{description}</Description>
     </OverviewItemWrapper>
   );
 }
