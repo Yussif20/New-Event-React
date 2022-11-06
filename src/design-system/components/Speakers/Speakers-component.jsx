@@ -6,7 +6,6 @@ export default function Speakers() {
   return (
     <SpeakersWrapper>
       {SpeakersData.map((item) => {
-        console.log(item.img);
         return (
           <SpeakersItem
             key={item.id}

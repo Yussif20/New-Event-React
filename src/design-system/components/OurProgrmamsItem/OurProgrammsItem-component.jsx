@@ -1,5 +1,11 @@
 import { faClock, faMapMarker } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  OurProgrammsItemWrapper,
+  ProgramImageSpeaker,
+  ProgramImageSpeakerWrapper,
+  IconWrapper,
+} from "./OurProgrammsItem-styles";
 
 export default function OurProgrammsItem({
   img,
@@ -9,19 +15,19 @@ export default function OurProgrammsItem({
   description,
 }) {
   return (
-    <div>
+    <OurProgrammsItemWrapper>
+      <ProgramImageSpeakerWrapper>
+        <ProgramImageSpeaker src={img} alt={alt} />
+      </ProgramImageSpeakerWrapper>
       <div>
-        <img src={img} alt={alt} />
-      </div>
-      <div>
-        <div>
+        <IconWrapper>
           <FontAwesomeIcon icon={faClock} /> 09:00 am
           <FontAwesomeIcon icon={faMapMarker} /> room 505
-        </div>
+        </IconWrapper>
         <h2>{title}</h2>
         <span>{name}</span>
         <p>{description}</p>
       </div>
-    </div>
+    </OurProgrammsItemWrapper>
   );
 }

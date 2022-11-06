@@ -1,5 +1,5 @@
-import OurProgrammsItem from "../OurProgrmamsItem/OurProgrammsItem";
-import OurProgrammsData from "./OurProgrammsData";
+import OurProgrammsItem from "../OurProgrmamsItem/OurProgrammsItem-component";
+import OurProgrammsData from "./OurProgrammsData-component";
 
 export default function OurProgrammsDay() {
   return (
