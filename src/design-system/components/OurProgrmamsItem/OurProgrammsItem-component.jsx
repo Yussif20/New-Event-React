@@ -21,11 +21,15 @@ export default function OurProgrammsItem({
       </ProgramImageSpeakerWrapper>
       <div>
         <IconWrapper>
-          <FontAwesomeIcon icon={faClock} /> 09:00 am
-          <FontAwesomeIcon icon={faMapMarker} /> room 505
+          <div>
+            <FontAwesomeIcon icon={faClock} /> 09:00 am
+          </div>
+          <div>
+            <FontAwesomeIcon icon={faMapMarker} /> room 505
+          </div>
         </IconWrapper>
         <h2>{title}</h2>
-        <span>{name}</span>
+        <h3>By {name}</h3>
         <p>{description}</p>
       </div>
     </OurProgrammsItemWrapper>
