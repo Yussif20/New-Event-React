@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import theme from "../../config";
 
 export const OverviewItemWrapper = styled("div")`
   text-align: center;
@@ -7,10 +8,10 @@ export const OverviewItemWrapper = styled("div")`
 
 export const Title = styled("h2")`
   font-size: 28px;
-  color: #edf2f4;
+  color: ${theme.white};
 `;
 
 export const Description = styled("p")`
   font-size: 18px;
-  color: #8d99ae;
+  color: ${theme.grey};
 `;
