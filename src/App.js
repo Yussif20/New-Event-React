@@ -1,3 +1,5 @@
+import "./design-system/main.css";
+
 import OverviewBar from "./design-system/components/OverviewBar/OverviewBar-component";
 import Speakers from "./design-system/components/Speakers/Speakers-component";
 

@@ -30,14 +30,14 @@ const SpeakersData = [
     id: "4",
     img: img4,
     alt: "speaker",
-    name: "Hossam Hassan",
+    name: "Saad Mohamed",
     job: "Software Developer",
   },
   {
     id: "5",
     img: img5,
     alt: "speaker",
-    name: "Hossam Hassan",
+    name: "Ibrahim Zakaria",
     job: "Software Developer",
   },
 ];
