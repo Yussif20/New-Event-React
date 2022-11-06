@@ -1,8 +1,8 @@
-import img1 from "../../../shared//assets//1.jpg";
-import img2 from "../../../shared//assets//2.jpg";
-import img3 from "../../../shared//assets//3.jpg";
-import img4 from "../../../shared//assets//4.jpg";
-import img5 from "../../../shared//assets//5.jpg";
+import img1 from "../../../shared//assets//speakers/1.jpg";
+import img2 from "../../../shared//assets//speakers/2.jpg";
+import img3 from "../../../shared//assets//speakers/3.jpg";
+import img4 from "../../../shared//assets//speakers/4.jpg";
+import img5 from "../../../shared//assets//speakers/5.jpg";
 
 const SpeakersData = [
   {
