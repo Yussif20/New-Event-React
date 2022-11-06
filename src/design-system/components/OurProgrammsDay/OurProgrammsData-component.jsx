@@ -1,6 +1,6 @@
-import img1 from "../../../shared//assets//ourprogramms/1.jpg";
-import img2 from "../../../shared//assets//ourprogramms/2.jpg";
-import img3 from "../../../shared//assets//ourprogramms/3.jpg";
+import img1 from "images/ourprogramms/1.jpg";
+import img2 from "images/ourprogramms/2.jpg";
+import img3 from "images/ourprogramms/3.jpg";
 
 const OurProgrammsData = [
   {

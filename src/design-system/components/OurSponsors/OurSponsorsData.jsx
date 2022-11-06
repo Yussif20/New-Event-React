@@ -1,8 +1,8 @@
 import img1 from "../../../shared/assets/logos/business-insider.png";
-import img2 from "../../../shared/assets/logos/forbes.png";
-import img3 from "../../../shared/assets/logos/techcrunch.png";
-import img4 from "../../../shared/assets/logos/the-new-york-times.png";
-import img5 from "../../../shared/assets/logos/usa-today.png";
+import img2 from "images/logos/forbes.png";
+import img3 from "images/logos/techcrunch.png";
+import img4 from "images/logos/the-new-york-times.png";
+import img5 from "images/logos/usa-today.png";
 
 const OurSponsorsData = [
   // {
