@@ -1,7 +1,9 @@
+import { SponsorImage } from "./OurSponsorsItem-styles";
+
 export default function OurSponsorsItem({ img, alt }) {
   return (
     <div>
-      <img src={img} alt={alt} />
+      <SponsorImage src={img} alt={alt} width="70%" />
     </div>
   );
 }

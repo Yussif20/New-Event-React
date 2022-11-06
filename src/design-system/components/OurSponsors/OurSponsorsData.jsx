@@ -5,11 +5,11 @@ import img4 from "../../../shared/assets/logos/the-new-york-times.png";
 import img5 from "../../../shared/assets/logos/usa-today.png";
 
 const OurSponsorsData = [
-  {
-    id: "1",
-    alt: "sponsor",
-    img: img1,
-  },
+  // {
+  //   id: "1",
+  //   alt: "sponsor",
+  //   img: img1,
+  // },
   {
     id: "2",
     alt: "sponsor",
