@@ -1,4 +1,4 @@
-import img1 from "../../../shared/assets/logos/business-insider.png";
+// import img1 from "../../../shared/assets/logos/business-insider.png";
 import img2 from "images/logos/forbes.png";
 import img3 from "images/logos/techcrunch.png";
 import img4 from "images/logos/the-new-york-times.png";
