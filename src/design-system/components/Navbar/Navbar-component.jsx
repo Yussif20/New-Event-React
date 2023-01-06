@@ -13,7 +13,7 @@ export default function Navbar() {
       <div className="container">
         <NavContainer>
           <NavTitle>
-            New<Event>Event</Event>
+            AFRI<Event>CANO</Event>
           </NavTitle>
           <NavLinks>
             <NavItems />
