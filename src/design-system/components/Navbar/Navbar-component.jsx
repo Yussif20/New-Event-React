@@ -5,8 +5,7 @@ import {
   NavLinks,
   NavTitle,
 } from "./Navbar-styles";
-import Links from "./Links";
-import NavLink from "./NavLink";
+import NavItems from "./NavItems";
 
 export default function Navbar() {
   return (
@@ -17,15 +16,7 @@ export default function Navbar() {
             New<Event>Event</Event>
           </NavTitle>
           <NavLinks>
-            {Links.map((link, index) => {
-              return (
-                <NavLink
-                  navLink={link.navLink}
-                  navText={link.navText}
-                  key={index}
-                />
-              );
-            })}
+            <NavItems />
           </NavLinks>
         </NavContainer>
       </div>
