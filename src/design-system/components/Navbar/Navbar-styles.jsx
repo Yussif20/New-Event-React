@@ -2,7 +2,9 @@ import styled from "@emotion/styled";
 import theme from "../../config.jsx";
 
 export const NavbarWrapper = styled(`section`)`
-  padding: 1.2rem;
+  position: fixed;
+  width: 100%;
+  padding: 1rem;
   background-color: ${theme.secondary};
 `;
 
