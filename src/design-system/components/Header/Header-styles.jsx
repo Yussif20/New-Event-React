@@ -17,3 +17,21 @@ export const H3 = styled("h3")`
 export const Title = styled("h1")`
   font-size: 3rem;
 `;
+export const LearnBtn = styled("button")`
+  background-color: transparent;
+  color: ${theme.white};
+  border: 1px solid ${theme.white};
+  :hover {
+    color: ${theme.primary};
+    background-color: ${theme.white};
+  }
+`;
+export const RegBtn = styled("button")`
+  background-color: ${theme.primary};
+  border: 1px solid ${theme.white};
+  color: ${theme.white};
+  :hover {
+    color: ${theme.primary};
+    background-color: ${theme.white};
+  }
+`;
