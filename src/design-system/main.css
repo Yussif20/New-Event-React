@@ -22,3 +22,6 @@ body {
   font-family: inherit;
   border-radius: 48px;
 }
+img {
+  width: 100%;
+}
