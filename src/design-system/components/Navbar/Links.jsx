@@ -2,10 +2,6 @@ export default function Links() {
   return [
     {
       navLink: "/",
-      navText: "Intro",
-    },
-    {
-      navLink: "/",
       navText: "Overview",
     },
     {
@@ -20,10 +16,7 @@ export default function Links() {
       navLink: "/",
       navText: "Register",
     },
-    {
-      navLink: "/",
-      navText: "Venue",
-    },
+
     {
       navLink: "/",
       navText: "Sponsors",

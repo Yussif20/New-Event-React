@@ -6,7 +6,7 @@ export default function Header() {
     <Headerwrapper>
       <H3> October 15 - 23</H3>
       <Title>The Biggest Zoo In The Middle East Opening</Title>
-      <LearnBtn className="btn">Learn More</LearnBtn>
+      <LearnBtn className="btn">See More</LearnBtn>
       <RegBtn className="btn">Register Now</RegBtn>
     </Headerwrapper>
   );

@@ -5,7 +5,7 @@ export const NavbarWrapper = styled(`section`)`
   position: fixed;
   width: 100%;
   padding: 1rem;
-  background-color: ${theme.secondary};
+  /* background-color: ${theme.secondary}; */
   z-index: 1000;
 `;
 
@@ -16,7 +16,9 @@ export const NavContainer = styled(`div`)`
   align-items: center;
 `;
 
-export const NavTitle = styled(`h1`)``;
+export const NavTitle = styled(`h1`)`
+  font-size: 36px;
+`;
 
 export const Event = styled(`span`)`
   color: ${theme.primary};
@@ -25,9 +27,11 @@ export const Event = styled(`span`)`
 export const Link = styled(`a`)`
   text-decoration: none;
   cursor: pointer;
-  &:hover {
-    color: ${theme.primary};
-    transition: 0.3s;
+  transition: 0.3s;
+  padding: 12px;
+  border-radius: 48px;
+  :hover {
+    background-color: ${theme.primary};
   }
 `;
 
