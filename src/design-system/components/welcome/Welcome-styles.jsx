@@ -3,19 +3,22 @@ import theme from "../../config";
 
 export const WelcomeContainer = styled(`section`)`
   padding: 64px;
-  background-color: #ffe8cc;
+  background-color: #fff4e6;
 `;
 
 export const Title = styled(`h2`)`
   text-align: center;
   font-size: 2.5rem;
   margin: 2rem;
-  color: ${theme.primary};
+  span {
+    color: ${theme.primary};
+  }
 `;
 
 export const Text = styled(`p`)`
-  font-size: 1.2rem;
-  margin: 1.5rem;
+  font-size: 1.4rem;
+  padding: 1rem;
+  line-height: 1.7rem;
 `;
 
 export const FlexContainer = styled(`div`)`
@@ -24,5 +27,6 @@ export const FlexContainer = styled(`div`)`
 `;
 
 export const FlexRow = styled(`div`)`
+  width: 50%;
   padding: 1.8rem;
 `;
